@@ -7,7 +7,7 @@ test_1 ~ 4 corresponds with the 4 property-tests in my .md article.
 You can find more in .md and the article is in Chinese, the English version will be updated soon.
 
 ## You can replicate my experiment and verify the OpenGauss database by following these steps.
-First you could use dockers to set the environment for this two databases and use Datagrip to make connections. After doing that you could open two console for two databases and make some tests as below.  
+First you could use dockers to set the environment for this two databases(you could refer to the openGauseGuideline.pdf) and use Datagrip to make connections. After doing that you could open two console for two databases and make some tests as below.  
 1.You could use SqlGenerators to generate multiply insertions(you could adjust columns and rows in this Java programme)  
 
 ```
