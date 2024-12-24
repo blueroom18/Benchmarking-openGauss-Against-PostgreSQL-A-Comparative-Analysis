@@ -16,6 +16,6 @@ public static void main(String[] args) {
         long n = 2;  // column setting
         String[] columnNames = {"id", "name", "age"};
         String[] columnTypes = {"int", "varchar", "long"};
-
+```
 2.Then you could do these insertions in the console seperately to see whether the running time comparison corresponds with my work.
 3. Ok, so now you have a form with big amount of data. You could try UPDATE,SELECT,SUM,AVERAGE and so on, comparing your result with mine. P.A. you could add EXPLAIN ANALYSE at the beginning of these simple DML to see the time for different steps and the momery occupaid.
